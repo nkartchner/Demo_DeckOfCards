@@ -46,7 +46,7 @@ class Deck {
     return this.cards.pop();
   }
   shuffle() {
-    // Phisher Yates Shuffle
+    // Fisher Yates Shuffle
     for (let i = 0; i < 10; i++) {
       for (let j = this.cards.length - 1; j > 0; j--) {
         let randomNumber = Math.floor(Math.random() * this.cards.length);
